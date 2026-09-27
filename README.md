@@ -114,9 +114,9 @@ You don't need to have a technical specification ready. If you can explain what 
 
 **Portfolio:** Coming soon
 
-**LinkedIn:** [](https://linkedin.com/in/quasimkhan)
+**LinkedIn:** [Link](https://linkedin.com/in/quasimkhan)
 
-**Peerlist:** [](https://peerlist.io/quasimkhan)
+**Peerlist:** [Link](https://peerlist.io/quasimkhan)
 
 ---
 
