@@ -26,7 +26,7 @@ const reasons = [
 
 export function WhyWorkWithMe() {
     return (
-        <section id="why-me" className="py-[88px] sm:py-28 lg:py-36">
+        <section id="why-me" className="py-22 sm:py-28 lg:py-36">
             <Container>
                 <div className="grid gap-16 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
                     {/* Introduction */}

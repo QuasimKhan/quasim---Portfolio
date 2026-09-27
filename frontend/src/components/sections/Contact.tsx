@@ -8,7 +8,7 @@ export function Contact() {
     return (
         <section
             id="contact"
-            className="bg-foreground py-[88px] text-white sm:py-28 lg:py-36"
+            className="bg-foreground py-22 text-white sm:py-28 lg:py-36"
         >
             <Container>
                 <div className="grid gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:items-end lg:gap-20">

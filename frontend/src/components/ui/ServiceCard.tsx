@@ -9,26 +9,26 @@ export function ServiceCard({ service }: ServiceCardProps) {
     const Icon = service.icon;
 
     return (
-        <article className="group relative border-t border-[#dedcd5] py-8 sm:py-10">
+        <article className="group relative border-t border-border py-8 sm:py-10">
             <div className="grid gap-7 lg:grid-cols-[80px_1fr_auto] lg:items-start lg:gap-10">
                 {/* Number */}
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#6e2525]">
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">
                     {service.number}
                 </p>
 
                 {/* Main content */}
                 <div>
                     <div className="flex items-center gap-4">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#dedcd5] bg-white text-[#6e2525] transition-colors duration-200 group-hover:border-[#6e2525]">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white text-accent transition-colors duration-200 group-hover:border-accent">
                             <Icon size={18} strokeWidth={1.5} />
                         </div>
 
-                        <h3 className="font-display text-3xl tracking-[-0.025em] sm:text-4xl">
+                        <h3 className="font-display text-3xl tracking-tight sm:text-4xl">
                             {service.title}
                         </h3>
                     </div>
 
-                    <p className="mt-5 max-w-2xl text-sm leading-7 text-[#6b6b66] sm:text-base">
+                    <p className="mt-5 max-w-2xl text-sm leading-7 text-muted sm:text-base">
                         {service.description}
                     </p>
 
@@ -36,7 +36,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
                         {service.examples.map((example) => (
                             <span
                                 key={example}
-                                className="rounded-full border border-[#dedcd5] px-3 py-1.5 text-xs text-[#6b6b66]"
+                                className="rounded-full border border-border px-3 py-1.5 text-xs text-muted"
                             >
                                 {example}
                             </span>
@@ -45,7 +45,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
                 </div>
 
                 {/* Arrow */}
-                <div className="hidden h-10 w-10 items-center justify-center rounded-full border border-[#dedcd5] transition-all duration-200 group-hover:border-[#6e2525] group-hover:bg-[#6e2525] group-hover:text-white lg:flex">
+                <div className="hidden h-10 w-10 items-center justify-center rounded-full border border-border transition-all duration-200 group-hover:border-accent group-hover:bg-accent group-hover:text-white lg:flex">
                     <ArrowUpRight
                         size={17}
                         strokeWidth={1.6}

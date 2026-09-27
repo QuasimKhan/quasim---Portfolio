@@ -25,7 +25,7 @@ export function Navbar() {
     }
 
     return (
-        <header className="sticky top-0 z-50 border-b border-[#dedcd5]/80 bg-[#f7f5f0]/90 backdrop-blur-md">
+        <header className="sticky top-0 z-50 border-b border-border/80 bg-background/90 backdrop-blur-md">
             <Container>
                 <div className="flex h-20 items-center justify-between">
                     {/* Logo */}
@@ -53,7 +53,7 @@ export function Navbar() {
                             <a
                                 key={link.href}
                                 href={link.href}
-                                className="text-sm text-[#6b6b66] transition-colors hover:text-[#171717]"
+                                className="text-sm text-muted transition-colors hover:text-foreground"
                             >
                                 {link.label}
                             </a>
@@ -61,7 +61,7 @@ export function Navbar() {
 
                         <a
                             href="#contact"
-                            className="group inline-flex items-center gap-2 rounded-full bg-[#6e2525] px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#541c1c]"
+                            className="group inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent-hover"
                         >
                             Let's Talk
                             <ArrowUpRight
@@ -80,7 +80,7 @@ export function Navbar() {
                             isOpen ? "Close navigation" : "Open navigation"
                         }
                         aria-expanded={isOpen}
-                        className="flex h-10 w-10 items-center justify-center rounded-full border border-[#dedcd5] text-[#171717] transition-colors hover:border-[#171717] md:hidden"
+                        className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:border-foreground md:hidden"
                     >
                         {isOpen ? (
                             <X size={19} strokeWidth={1.7} />
@@ -106,7 +106,7 @@ export function Navbar() {
                                 key={link.href}
                                 href={link.href}
                                 onClick={closeMenu}
-                                className="flex items-center justify-between border-b border-[#dedcd5] py-5 font-display text-2xl tracking-[-0.02em] text-[#171717]"
+                                className="flex items-center justify-between border-b border-border py-5 font-display text-2xl tracking-[-0.02em] text-foreground"
                             >
                                 <span>{link.label}</span>
 
@@ -119,7 +119,7 @@ export function Navbar() {
                         <a
                             href="#contact"
                             onClick={closeMenu}
-                            className="mt-6 flex items-center justify-between rounded-xl bg-[#6e2525] px-5 py-4 text-sm font-medium text-white"
+                            className="mt-6 flex items-center justify-between rounded-xl bg-accent px-5 py-4 text-sm font-medium text-white"
                         >
                             <span>Start a Project</span>
 

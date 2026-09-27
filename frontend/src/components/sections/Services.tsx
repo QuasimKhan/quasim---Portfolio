@@ -56,7 +56,7 @@ export function Services() {
     return (
         <section
             id="services"
-            className="border-y border-border bg-surface py-[88px] sm:py-28 lg:py-36"
+            className="border-y border-border bg-surface py-22 sm:py-28 lg:py-36"
         >
             <Container>
                 <div className="grid gap-16 lg:grid-cols-[0.7fr_1.3fr] lg:gap-24">
@@ -108,7 +108,7 @@ export function Services() {
 
                                         {/* Content */}
                                         <div>
-                                            <h3 className="font-display text-3xl tracking-[-0.025em] text-foreground sm:text-4xl">
+                                            <h3 className="font-display text-3xl tracking-tight text-foreground sm:text-4xl">
                                                 {service.title}
                                             </h3>
 

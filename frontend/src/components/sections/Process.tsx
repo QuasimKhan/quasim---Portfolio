@@ -33,7 +33,7 @@ export function Process() {
     return (
         <section
             id="process"
-            className="border-y border-border bg-surface py-[88px] sm:py-28 lg:py-36"
+            className="border-y border-border bg-surface py-22 sm:py-28 lg:py-36"
         >
             <Container>
                 <SectionHeading

@@ -10,7 +10,7 @@ const capabilities = [
 
 export function About() {
     return (
-        <section id="about" className="py-[88px] sm:py-28 lg:py-36">
+        <section id="about" className="py-22 sm:py-28 lg:py-36">
             <Container>
                 <div className="grid gap-14 lg:grid-cols-[0.75fr_1.25fr] lg:gap-24">
                     {/* Label */}

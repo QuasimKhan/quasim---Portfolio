@@ -36,7 +36,7 @@ export function SelectedWork() {
     return (
         <section
             id="work"
-            className="border-t border-border py-[88px] sm:py-28 lg:py-36"
+            className="border-t border-border py-22 sm:py-28 lg:py-36"
         >
             <Container>
                 <SectionHeading
@@ -54,7 +54,7 @@ export function SelectedWork() {
                             <div className="grid gap-10 lg:grid-cols-[1.35fr_0.65fr] lg:items-center lg:gap-16">
                                 {/* Project visual */}
                                 <div className="relative overflow-hidden rounded-2xl border border-border bg-surface">
-                                    <div className="aspect-[16/10] overflow-hidden">
+                                    <div className="aspect-16/10 overflow-hidden">
                                         <div className="relative flex h-full items-center justify-center p-6 sm:p-10">
                                             {/* Temporary project preview */}
                                             <div className="w-full max-w-2xl overflow-hidden rounded-xl border border-border bg-background shadow-[0_20px_50px_rgba(23,23,23,0.08)] transition-transform duration-500 group-hover:scale-[1.015]">
@@ -66,7 +66,7 @@ export function SelectedWork() {
                                                 </div>
 
                                                 {/* Preview */}
-                                                <div className="grid min-h-[190px] grid-cols-[0.7fr_1.3fr] sm:min-h-[250px]">
+                                                <div className="grid min-h-47.5 grid-cols-[0.7fr_1.3fr] sm:min-h-62.5">
                                                     <div className="border-r border-border bg-surface p-4 sm:p-6">
                                                         <div className="h-2 w-14 rounded-full bg-border" />
 
